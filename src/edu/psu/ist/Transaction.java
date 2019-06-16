@@ -31,7 +31,7 @@ public class Transaction {
     public static void listTransactions(ArrayList<Transaction> tList){
         for (Transaction trans: tList){
             System.out.println("Transaction ID: " + trans.getTransactionId());
-            //System.out.println("Order:" + trans.getOrder());  //TODO: Print order
+            //System.out.println("Order:" + trans.getOrder());
             System.out.println("Payment Type: " + trans.getPaymentType());
         }
     }
